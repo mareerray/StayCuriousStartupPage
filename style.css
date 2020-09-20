@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: "Permanent Marker", sans-serif ;
+}
+
+.landing {
+    height: 100vh;
+    background-image: url(curiouskitten.jpg);
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding-left: 8rem;
+    font-size: 1.5rem;
+    color: rgb(42, 45, 63);
+}
+#logo {
+    font-family: "Gochi Hand", cursive;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    color: rgb(42, 45, 63);
+}
+.big-text {
+    position: absolute;
+    top: 27%;
+    left: 21%;
+    transform: translate(-50%, -30%);
+    font-size: 5rem;
+    font-family: "Gochi Hand", cursive;
+    font-weight: lighter;
+    color: rgb(42, 45, 63);
+}
+.intro {
+    background: grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+.intro-text {
+    color: rgb(42, 45, 63);
+    font-family: "Heebo", sans-serif ;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.hide {
+    background: grey;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
